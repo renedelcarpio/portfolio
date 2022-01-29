@@ -1,13 +1,14 @@
 import About from './components/Pages/About/About';
-import Layout from './components/Pages/Layout/Layout';
+import Main from './components/Pages/Main/Main';
 import Projects from './components/Pages/Projects/Projects';
 
 const App = () => {
 	return (
-		<Layout>
+		<>
+			<Main />
 			<About />
 			<Projects />
-		</Layout>
+		</>
 	);
 };
 
