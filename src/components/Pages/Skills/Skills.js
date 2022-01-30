@@ -2,7 +2,7 @@ import './Skills.scss';
 
 import React from 'react';
 import SkillsCard from '../../common/SkillsCard/SkillsCard';
-import { mySkills } from '../../../assets/mySkills/mySkills';
+import { mySkills } from '../../../assets/data/mySkills';
 
 const Skills = () => {
 	return (
