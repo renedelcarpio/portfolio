@@ -1,0 +1,51 @@
+@import '../../../index.scss';
+
+.about {
+  background-color: $dark-primary;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 94vh;
+  width: 100vw;
+  height: 80vh;
+
+}
+
+.about__image {
+  width: 25rem;
+  border-radius: 0.5rem;
+}
+
+.about__info {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 40%;
+  height: 35rem;
+  margin-top: 5rem;
+  margin-left: 2rem;
+}
+
+.about__discover {
+  color: $color-primary;
+  font-size: 1.5rem;
+}
+
+.about__title {
+color: $color-light;
+font-size: 2.5rem;
+margin-bottom: 0.5rem;
+}
+
+hr {
+  width: 7%;
+  color: $color-primary;
+  margin-bottom: 2rem;
+
+}
+
+.about__paragraph {
+  color: $color-light;
+  font-size: 1.5rem;
+  margin-bottom: 4rem;
+}
