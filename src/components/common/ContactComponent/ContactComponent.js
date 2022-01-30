@@ -2,9 +2,13 @@ import './ContactComponent.scss';
 
 const ContactComponent = ({ logo, url }) => {
 	return (
-		<div>
-			<i className={logo}></i>
-			<p>{url}</p>
+		<div className='contact__items'>
+			<div className='contact__logo-container'>
+				<i className={`${logo} contact__logo`}></i>
+			</div>
+			<a className='contact__url' href={url}>
+				{url}
+			</a>
 		</div>
 	);
 };

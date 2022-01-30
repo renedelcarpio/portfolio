@@ -1,3 +1,24 @@
 @import '../../../index.scss';
 
+.contact__items {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  width: 35rem;
+}
 
+.contact__logo-container {
+  display: flex;
+  padding: 1rem;
+}
+
+.contact__logo {
+  color: $color-primary;
+  font-size: 3rem;
+}
+
+.contact__url {
+  color: $color-light;
+  font-size: 1.5rem;
+  margin-left: 1rem;
+}
