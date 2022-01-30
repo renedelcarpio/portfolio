@@ -1,0 +1,62 @@
+@import '../../../index.scss';
+
+.project {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+  margin-bottom: 2rem;
+}
+
+.project__images {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 0.2rem solid $color-primary;
+  border-radius: 2rem;
+  padding: 1rem;
+  width: 35rem;
+  height: 20rem;
+}
+
+.project__imageD {
+  width: 85%;
+  margin-left: -3rem;
+}
+
+.project__imageM {
+  position: absolute;
+  border-radius: 0.2rem;
+  box-shadow: 0 0 3rem $color-dark;
+  width: 6rem;
+  height: 12rem;
+  margin-top: 2rem;
+  margin-left: 12rem;
+  overflow: hidden;
+}
+
+.project__info {
+  margin-left: 2rem;
+  width: 35rem;
+}
+
+.project__info-item {
+  color: $color-light;
+  margin-bottom: 1rem;
+}
+
+.project__title {
+  color: $color-primary;
+  font-size: 1.6rem;
+}
+
+a {
+  text-decoration: none;
+  transition: 0.3s;
+
+  &:hover {
+    color: $color-primary;
+  }
+}
+
+
