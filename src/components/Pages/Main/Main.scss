@@ -17,7 +17,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 10rem;
+  margin-top: 18rem;
   width: 100vw;
   z-index: 10;
 }
@@ -35,4 +35,10 @@
 .main__profile--sub-title {
   color: $color-light;
   font-size: 2rem;
+}
+
+@media (max-width: 450px) {
+  .main__profile--title {
+    font-size: 4rem;
+  }
 }
