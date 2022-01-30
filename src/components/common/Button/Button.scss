@@ -1,0 +1,104 @@
+@import '../../../index.scss';
+
+.btn {
+  position: relative;
+  width: 15.5rem;
+  height: 5rem;
+  margin: 2rem;
+}
+
+.btn button {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: rgba($color-light, 0.05);
+  box-shadow: 0 1.5rem 3.5rem rgba(#000, 0.2);
+  border: none;
+  border-top: 1px solid rgba($color-light, 0.1);
+  border-bottom: 1px solid rgba($color-light, 0.1);
+  border-radius: 3rem;
+  color: $color-light;
+  font-weight: bold;
+  z-index: 1;
+  letter-spacing: 0.1rem;
+  overflow: hidden;
+  transition: 0.5s;
+  backdrop-filter: blur(1.5rem);
+}
+
+.btn:hover button {
+  letter-spacing: 0.3rem;
+}
+
+.btn button::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(to left, rgba($color-light, 0.15), transparent);
+  transform: skew(45deg) translateX(0);
+  transition: 0.5s;
+}
+
+.btn:hover button::before {
+  transform: skew(45deg) translateX(200%);
+}
+
+.btn::before {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: (translateX(-50%));
+  bottom: -0.5rem;
+  width: 3rem;
+  height: 1rem;
+  background: $color-primary;
+  border-radius: 1rem;
+  transition: 0.5s;
+}
+
+.btn:hover::before {
+  bottom: 0;
+  height: 50%;
+  width: 80%;
+  border-radius: 3rem;
+  transition-delay: 0.3s;
+}
+
+.btn::after {
+  content: '';
+  position: absolute;
+  left: 50%;
+  transform: (translateX(-50%));
+  top: -0.5rem;
+  width: 3rem;
+  height: 1rem;
+  background: $color-primary;
+  border-radius: 1rem;
+  transition: 0.5s;
+}
+
+.btn:hover::after {
+  top: 0;
+  height: 50%;
+  width: 80%;
+  border-radius: 3rem;
+  transition-delay: 0.3s;
+}
+
+.btn::before, .btn::after {
+  background: $color-primary;
+  box-shadow: 0 0 0.5rem $color-primary,
+  0 0 1.5rem $color-primary,
+  0 0 3rem $color-primary,
+  0 0 6rem $color-primary;
+}
+
+

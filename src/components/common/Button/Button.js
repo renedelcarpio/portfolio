@@ -1,5 +1,11 @@
+import './Button.scss';
+
 const Button = ({ children }) => {
-	return <div>{children}</div>;
+	return (
+		<div className='btn'>
+			<button>{children}</button>;
+		</div>
+	);
 };
 
 export default Button;
