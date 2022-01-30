@@ -59,4 +59,18 @@ a {
   }
 }
 
+@media (max-width: 550px) {
+  .project {
+    flex-direction: column;
+  }
 
+  .project__images {
+    width: 32rem;
+  }
+
+  .project__info {
+    width: 30rem;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+  }
+}
