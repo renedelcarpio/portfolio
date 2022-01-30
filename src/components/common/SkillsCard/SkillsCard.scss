@@ -1,0 +1,28 @@
+@import '../../../index.scss';
+
+.skillsCard {
+  border: 0.2rem solid $color-primary;
+  border-radius: 1rem;
+  margin-bottom: 2rem;
+  padding: 2rem;
+  width: 20rem;
+  height: 15rem;
+  overflow: hidden;
+}
+
+.skillsCard__item {
+  color: $color-primary;
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.skillsCard__title {
+  color: $color-light;
+  font-size: 1.6rem;
+  margin-bottom: 0.5rem;
+}
+
+.skillsCard__description {
+  color: $color-light;
+  font-size: 1rem;
+}
