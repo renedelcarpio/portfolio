@@ -8,6 +8,11 @@
   width: 20rem;
   height: 15rem;
   overflow: hidden;
+  transition: 0.3s;
+
+  &:hover {
+    box-shadow: 0 0 2rem $color-primary;
+  }
 }
 
 .skillsCard__item {
