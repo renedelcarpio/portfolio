@@ -8,7 +8,7 @@ const Skills = () => {
 	return (
 		<div id='skills' className='skills'>
 			<div className='skills__title'>
-				<h4 className='about__discover'>What I Do</h4>
+				<h4 className='about__discover'>What I Know</h4>
 				<h1 className='about__title'>My Skills</h1>
 				<hr size='2px' width='7%' color='#f45659' />
 			</div>
