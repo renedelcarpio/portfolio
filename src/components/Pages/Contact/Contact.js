@@ -11,7 +11,7 @@ const Contact = () => {
 				<h1 className='about__title'>Contact me</h1>
 				<hr size='2px' width='7%' color='#f45659' />
 			</div>
-			<div>
+			<div className='contact__data'>
 				{myData.map(({ logo, url }) => {
 					return <ContactComponent logo={logo} url={url} />;
 				})}
