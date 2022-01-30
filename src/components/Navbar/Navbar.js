@@ -13,22 +13,22 @@ const Navbar = () => {
 					</a>
 				</li>
 				<li>
-					<a className='navbar__item' href='#home'>
+					<a className='navbar__item' href='#about'>
 						About
 					</a>
 				</li>
 				<li>
-					<a className='navbar__item' href='#home'>
-						Stack
+					<a className='navbar__item' href='#skills'>
+						Skills
 					</a>
 				</li>
 				<li>
-					<a className='navbar__item' href='#home'>
+					<a className='navbar__item' href='#pages'>
 						Pages
 					</a>
 				</li>
 				<li>
-					<a className='navbar__item' href='#home'>
+					<a className='navbar__item' href='#contact'>
 						Contact
 					</a>
 				</li>
