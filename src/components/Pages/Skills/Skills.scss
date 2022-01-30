@@ -1,0 +1,23 @@
+@import '../../../index.scss';
+
+.skills {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: $dark-secondary;
+  width: 100vw;
+  padding-bottom: 5rem;
+}
+
+.skills__title {
+  width: 85%;
+  margin-top: 5rem;
+}
+
+.skills__cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 80%;
+}
