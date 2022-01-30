@@ -7,7 +7,6 @@
   align-items: center;
   margin-top: 94vh;
   width: 100vw;
-  height: 80vh;
 
 }
 
@@ -47,4 +46,17 @@ hr {
   color: $color-light;
   font-size: 1.5rem;
   margin-bottom: 4rem;
+}
+
+@media (max-width: 550px){
+  .about {
+    flex-direction: column;
+    padding-top: 5rem;
+    padding-bottom: 3rem;
+  }
+
+  .about__info {
+    margin-top: 2rem;
+    width: 85%;
+  }
 }
