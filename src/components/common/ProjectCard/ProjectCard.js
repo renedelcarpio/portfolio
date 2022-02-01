@@ -10,6 +10,7 @@ const ProjectCard = ({ name, url, description, desktop, mobile, index }) => {
 			<div className='project__info'>
 				<h2 className='project__info-item project__title'>{name}</h2>
 				<p className='project__info-item'>{description}</p>
+				<p className='project__info-item'>You can see this project here:</p>
 				<a className='project__info-item' href={url}>
 					{url}
 				</a>

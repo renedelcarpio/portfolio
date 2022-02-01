@@ -11,7 +11,8 @@ export const myPages = [
 	{
 		name: 'Expense Control',
 		url: 'https://app-gastos-95f7b.web.app',
-		description: 'Some description must be here',
+		description:
+			'This project was created with React js in the frontend and Firebase for the backend and database. It allows you to register users and make a login. Once you are logged, you can make a CRUD with the expenses. In this app you can select the type of expense, the date and put the description and amount. Also you can see a list of expenses and de total of the month. I used useContext to handle de global states like session and total expenses.',
 		desktop: expenseD,
 		mobile: expenseM,
 	},
