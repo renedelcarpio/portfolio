@@ -11,7 +11,7 @@
 }
 
 .about__image {
-  width: 25rem;
+  width: 55rem;
   border-radius: 0.5rem;
 }
 
@@ -48,6 +48,12 @@ hr {
   margin-bottom: 4rem;
 }
 
+@media (max-width: 1200px){
+  .about__image {
+    width: 32rem;
+  }
+}
+
 @media (max-width: 550px){
   .about {
     flex-direction: column;
@@ -58,5 +64,11 @@ hr {
   .about__info {
     margin-top: 2rem;
     width: 85%;
+  }
+
+  .about__button {
+    display: flex;
+    justify-content: center;
+    width: 100%;
   }
 }

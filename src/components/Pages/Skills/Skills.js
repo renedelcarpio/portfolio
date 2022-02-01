@@ -13,15 +13,8 @@ const Skills = () => {
 				<hr size='2px' width='7%' color='#f45659' />
 			</div>
 			<div className='skills__cards'>
-				{mySkills.map(({ name, icon, description, index }) => {
-					return (
-						<SkillsCard
-							key={`${name}${index}`}
-							name={name}
-							icon={icon}
-							description={description}
-						/>
-					);
+				{mySkills.map(({ name, icon, index }) => {
+					return <SkillsCard key={`${name}${index}`} name={name} icon={icon} />;
 				})}
 			</div>
 		</div>
