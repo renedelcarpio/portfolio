@@ -44,7 +44,7 @@ export const myPages = [
 	},
 	{
 		name: 'Super hero router',
-		url: 'https://calleperformance.art/',
+		url: 'https://renedelcarpio.github.io/heroes_app/',
 		description:
 			'This is a project to learn the new features of react-router-dom (V6). I used nesting routes and set a simple login to try public and private routes, I also implement tests with Jest and Enzyme.',
 		desktop: heroD,
