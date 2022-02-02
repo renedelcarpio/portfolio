@@ -11,12 +11,12 @@ export const myData = [
 	},
 	{
 		name: 'GitHub',
-		logo: 'fab fa-github',
+		logo: 'fab fa-github-alt',
 		url: 'https://github.com/renedelcarpio',
 	},
 	{
 		name: 'Phone',
-		logo: 'fas fa-mobile-alt',
+		logo: 'fab fa-whatsapp',
 		url: '+591 798 80310',
 	},
 ];

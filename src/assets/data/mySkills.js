@@ -59,4 +59,8 @@ export const mySkills = [
 		name: 'MongoDB',
 		icon: 'fas fa-database',
 	},
+	{
+		name: 'Wordpress',
+		icon: 'fab fa-wordpress-simple',
+	},
 ];
