@@ -19,7 +19,7 @@
     list-style: none;
   }
 
-  &__item {
+  &__link {
     color: $color-light;
     font-size: 1.2rem;
     font-weight: bold;
@@ -30,5 +30,50 @@
     &:hover {
       color: $color-primary;
     }
+  }
+
+  &__mobile--icon {
+    background-color: transparent;
+    border: none;
+    color: $color-light;
+    font-size: 2rem;
+    display: none;
+
+  }
+}
+
+@media (max-width: 550px){
+  .navbar__mobile--icon {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .navbar__name {
+    font-size: 1.5rem;
+  }
+
+  .navbar__list {
+    display: none;
+  }
+
+  .navbar__list--mobile {
+    position: absolute;
+    display: block;
+    list-style: none;
+    background-color: rgba($color-dark, 0.7);
+    left: 0;
+    top: 4rem;
+    width: 100%;
+  }
+
+  .navbar__item {
+    text-align: center;
+    padding: 2rem;
+    width: 100%;
+  }
+
+  .navbar__link {
+    font-size: 2rem;
   }
 }
