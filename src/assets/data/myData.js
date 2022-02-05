@@ -19,4 +19,9 @@ export const myData = [
 		logo: 'fab fa-whatsapp',
 		url: '+591 798 80310',
 	},
+	{
+		name: 'Twitter',
+		logo: 'fab fa-twitter',
+		url: 'https://twitter.com/delcarpio_rene',
+	},
 ];
