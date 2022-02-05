@@ -2,7 +2,6 @@ import './About.scss';
 
 import Button from '../../common/Button/Button';
 import Photo from '../../../assets/images/photo2.jpeg';
-import cv from '../../../assets/images/ReneDelCarpioCV.pdf';
 import { saveAs } from 'file-saver';
 
 const About = () => {
