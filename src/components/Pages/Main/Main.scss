@@ -12,13 +12,14 @@
 }
 
 .main__profile--info {
+  background-color: rgba($color-dark, 0.5);
   position: absolute;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  margin-top: 18rem;
   width: 100vw;
+  height: 96vh;
   z-index: 10;
 }
 
