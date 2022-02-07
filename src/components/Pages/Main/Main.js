@@ -7,7 +7,7 @@ import Photo1 from '../../../assets/images/photo1.png';
 const Main = () => {
 	return (
 		<div className='main'>
-			<img className='main__image' src={Bike} alt='' />
+			<img className='main__image' src={Bike} alt='bike' />
 			<Navbar className='main__navbar' />
 			<div className='main__profile--info'>
 				<img className='main__profile--photo' src={Photo1} alt='profile' />
