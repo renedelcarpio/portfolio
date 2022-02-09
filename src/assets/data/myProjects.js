@@ -30,7 +30,7 @@ export const myPages = [
 		name: 'Es Vendiendo',
 		url: 'https://esvendiendo.com/',
 		description:
-			'Mi client needed a web page to grow his business and needed it fast, because of that I decided to use Wordpress to make this job. The work was done and everybody were happy.',
+			'My client needed a web page to grow his business and needed it fast, because of that I decided to use Wordpress to make this job. The work was done and everybody were happy.',
 		desktop: esVendiendoD,
 		mobile: esVendiendoM,
 	},
