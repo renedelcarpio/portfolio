@@ -16,7 +16,7 @@ const About = () => {
       <img className="about__image" src={Photo} alt="" />
       <div className="about__info">
         <h4 className="about__discover">Discover</h4>
-        <h1 className="about__title">About me!!!</h1>
+        <h1 className="about__title">About me</h1>
         <hr size="2px" width="7%" color="#f45659" />
         <p className="about__paragraph">
           Hi, I’m Rene, I’m a software developer with big passion for
